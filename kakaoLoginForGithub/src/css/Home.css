@@ -1,0 +1,17 @@
+.btn_login {
+  width: 50x;
+  height: 20x;
+  margin-top: 20px;
+}
+
+div span {
+  border: 4px solid #ebda49;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 10px;
+  font-size: bold;
+}
+
+div span a {
+  text-decoration: none;
+}
