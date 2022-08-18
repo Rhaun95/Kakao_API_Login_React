@@ -24,7 +24,7 @@ const Auth = () => {
     };
 
     const body = Object.keys(forToken)
-      .map((k) => encodeURIComponent(k) + '=' + encodeURI(forToken[k]))
+      .map((k) => k + '=' + encodeURI(forToken[k]))
       .join('&');
 
     try {
